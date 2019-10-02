@@ -1,0 +1,128 @@
+header {
+    background-color: #020E26;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    top: 0;
+    /*right:05;*/
+    opacity: 10%;
+    padding-top: 3%;
+    padding-bottom: 0%;
+    padding: 1em;
+    text-align: center;
+}
+
+/*Este id es para darle un tamaño unico al logo en todas las paginas*/
+#logo {
+    width: 38%;
+    height: 100%;
+    margin-right: 47%;
+    font-stretch: extra-condensed;
+}
+
+.logosredessociales {
+    width: 35px;
+    height: 35px;
+}
+
+nav {
+    background-color: #020E26;
+    margin-bottom: 0.2%;
+    /*right:05;*/
+    padding: 0.5em;
+    font-family: Verdana, Geneva, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    float: center;
+    margin-top: 0.2%;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+
+footer ul {
+    display: flex;
+
+
+}
+
+footer li a:hover {
+    background: #F2C744;
+    color: black;
+    margin-left: 2%;
+}
+
+footer li {
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+}
+
+/*nav ul {
+  list-style: none;
+  
+}*/
+nav li a {
+    color: white;
+    background-color: #0B3640;
+    display: block;
+    text-decoration: none;
+    padding: .5em 1em;
+    margin-top: 1%;
+}
+
+nav li a:hover {
+    background: #F2C744;
+    color: black;
+}
+
+footer {
+    background-color: #020E26;
+    margin-top: 0%;
+    padding: 1em;
+    text-align: center;
+}
+
+.block {
+    background-color: white;
+    padding: 1em;
+    text-align: center;
+    margin-top: 3%;
+}
+
+aside {
+    background-color: pink;
+    margin-top: 0%;
+    padding: 1em;
+    text-align: center;
+
+}
+
+section {
+    background-image: url(../RECURSOS/fondo.png);
+    margin-top: 0%;
+    padding: 1em;
+    text-align: center;
+    overflow-y: scroll;
+    max-width: 100%;
+    max-height: 10%;
+    height: 500px;
+    ;
+
+}
+
+
+.boton {
+    position: right;
+    position: fixed;
+    /*margin-right: 47%;*/
+    margin-left: 47%;
+    font-stretch: extra-condensed;
+    float:right;
+}
